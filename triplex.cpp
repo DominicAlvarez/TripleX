@@ -25,7 +25,7 @@ bool PlayGame(int Difficulty){
     int GuessProduct = GuessA * GuessB * GuessC;
 
     if(GuessProduct == CodeProduct && CodeSum == GuessSum){
-        std::cout<<"\n*Great, You got the first one, move onto the next!*";
+        std::cout<<"\n*Great, You got it, move onto the next!*";
         return true;
     }
     else{
